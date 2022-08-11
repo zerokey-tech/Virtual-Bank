@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+<meta charset="ISO-8859-1">
+        <style>
+            *{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background:linear-gradient(rgba(0,0,234,0.3),rgba(56,0,0,0.3)),url(AdobeStock_206098307.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+
+
+#word{
+    color: beige;
+    position: absolute;
+    font-size: 9em;
+    overflow: hidden;
+    top:330px;
+    padding-left: 20%;
+    bottom: -100%;
+ }
+#word1{
+    
+    position: relative;
+    animation: anim 2s forwards;
+            }
+    @keyframes anim{
+        from{
+            bottom: -100%;
+            }
+        to{
+            bottom: 0%;
+            }
+        }
+.home{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(shutterstock_1150180799.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+        
+  .navbar{
+    float:right;
+    list-style: none;
+    margin-top: 30px;
+}
+.navbar li{
+    display:inline-flex;
+}
+.navbar li a{
+    color:#fff;
+    text-decoration: none;
+    padding:5px 20px;
+    font-size: 25px;
+}
+.navbar li a:hover{
+    background: #fff;
+    color:#333;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}  
+.login img{
+    padding-top: 15%;
+    padding-left: 20%;
+    float:left;
+    
+           
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        <div id="word">
+                <div id="word1">
+                
+                   Virtual Bank
+                </div>
+            </div>
+                </header>
+            <div class="home">
+            <ul class="navbar">
+           <li><a href="About.html">About Us</a></li>
+           <li><a href="ContactUs.html">Contact Us</a></li>
+           <li><a href="Login.html">Sign In</a></li>
+            <li><a href="NewUserLogin.html">Sign Up</a></li>
+            
+
+            </ul>
+               
+     </div>
+                
+       
+    </body>
+    
+    </html>
+     

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        form{
+            background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(online-banking-process-scheme-on-green-background-vector-13556382.jpg);
+             max-width: 1000px;
+             margin: 0 auto;
+            height: 100vh;
+            
+            
+        }
+        .color{
+            width:500px;
+            background: #00C198;
+            opacity: 0.9;
+            text-align: center;
+            margin: 0px auto;
+            font-size: 25px;
+            height: 90vh;
+            position: center;
+            color:black;
+        }
+       input{
+           font-size: 30px;
+        }
+        p{
+            font-size: 40px;
+            color: maroon;}
+        a{
+            text-decoration: none;
+            color: maroon;
+            font-size: 35px;
+        }
+        button{
+            font-size: 30px;
+            background: maroon;
+            color:aliceblue;
+        }
+        
+        
+            
+    </style>
+
+</head>
+<body>
+ <form action="AuthenticateServlet">
+        <div class="color">
+        <p>LOG IN</p><br>
+        <br>
+            <input type="text" placeholder="Username" name="Uname" required><br><br>
+    
+           <input type="password" placeholder="Type your password here" name="Pword" required><br><br>
+    
+            <button type="submit" value="submit"> Sign In</button><br><br>
+             <a href="forgotPassword.html">Forgot Password</a><br>
+             <a href="ChangePassword.html">Change Password</a>
+        </div>
+       
+    </form>
+
+</body>
+</html>

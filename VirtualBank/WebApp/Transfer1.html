@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Transfer</title>
+<style>
+            *{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background:linear-gradient(rgba(0,0,234,0.3),rgba(56,0,0,0.3));
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+ 
+                .img{
+        width:500px;
+        height:500px;
+        top:50%;
+        left:50%;
+        text-align:center;
+        background: lightblue;
+        opacity: 0.9;
+        font-size:25px;
+        position:absolute;
+        transform:translate(-50%,-50%);
+        box-sizing:border-box;        
+        }
+        
+         button{
+         
+            font-size: 30px;
+            background: lightblue;
+            color:aliceblue;
+        }
+         p{
+            font-size: 40px;
+            color: DarkBlue;
+            }
+        input{
+        font-size:25px;
+        }
+        .im{
+         border-radius:50%;
+    width: 100px;
+    position:absolute;
+    height: 100px;
+    top:-50px;
+    left:calc(50% - 50px);
+}  
+        
+          
+  </style>
+</head>
+<body>
+<header>
+
+<form action="TransferServlet">
+<div class="img">
+<img src="22579e0d8c9772d.jpg" class="im">
+
+<br><br>
+<p>Transfer</p>
+From Account:<input type="text" name="accountNo1" required><br><br>
+To Account :<input type="text" name="accountNo2" required><br><br>
+Enter Amount:<input type="text" name="amount" required><br><br>
+<button type="submit" value="submit">Enter</button><br><br>
+</div>
+</form>
+
+</header>
+</body>
+</html>

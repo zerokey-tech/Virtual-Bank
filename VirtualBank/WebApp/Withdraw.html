@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Withdraw</title>
+<style>
+            *{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background:linear-gradient(rgba(150,94,140,0.3),rgba(160,80,90,0.3));
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+ 
+       .color{
+        width:500px;
+        height:500px;
+        top:50%;
+        left:50%;
+        text-align:center;
+        background: rgba(0,128,128,0.2);
+        opacity: 0.9;
+        font-size:25px;
+        position:absolute;
+        transform:translate(-50%,-50%);
+        box-sizing:border-box;        
+        }
+        
+         button{
+         
+            font-size: 30px;
+            background: lightblue;
+            color:white;
+        }
+         p{
+            font-size: 40px;
+            color: DarkBlue;
+            }
+         input{
+           font-size: 25px;
+        }
+         .im{
+         border-radius:50%;
+    width: 100px;
+    position:absolute;
+    height: 100px;
+    top:-50px;
+    left:calc(50% - 50px);
+}  
+         
+  </style>
+</head>
+<body>
+<header>
+<div class="color">
+<form action="WithdrawServlet">
+<img src="22579e0d8c9772d.jpg" class="im">
+
+<br><br>
+<p>Withdraw</p><br>
+Enter Account Number:<input type="text" name="accountNo" required><br><br>
+Enter Amount To Be Withdrawn:<input type="text" name="amount" required><br><br>
+<button type="submit" value="submit"> Submit</button><br><br>
+
+</form>
+</div>
+</header>
+</body>
+</html>

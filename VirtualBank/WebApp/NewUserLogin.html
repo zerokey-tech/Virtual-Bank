@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New User</title>
+<style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        form{
+            background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(online-banking-process-scheme-on-green-background-vector-13556382.jpg);
+             max-width: 1000px;
+             margin: 0 auto;
+            height: 100vh;
+            
+            
+        }
+        .color{
+            width:500px;
+            background: #00C198;
+            opacity: 0.9;
+            text-align: center;
+            margin: 0px auto;
+            font-size: 25px;
+            height: 90vh;
+            position: center;
+            color:black;
+        }
+       input{
+           font-size: 30px;
+        }
+        p{
+            font-size: 40px;
+            color: maroon;}
+        a{
+            text-decoration: none;
+            color: maroon;
+            font-size: 35px;
+        }
+        button{
+            font-size: 30px;
+            background: maroon;
+            color:aliceblue;
+        }
+        
+        
+            
+    </style>
+
+</head>
+<body>
+<form action="DynamicNewUserServlet">
+<div class="color">
+        <p>Sign Up</p><br>
+        <br>
+            Enter UserName: <input type="text" name="Uname" required><br><br>
+            Enter Password: <input type="password" name="Pword" required><br><br>
+           Enter SQuestion: <input type="text" name="sQ" required><br><br>
+           Enter Full Name:<input type="text" name="name" required><br><br>
+           Enter Email Id:<input type="email" name="email" required><br><br>
+           Enter Account Type:<input type="text" name="accType"><br><br>
+           
+           <button type="submit" value="submit"> Sign Up</button><br><br>
+             
+        </div>
+       
+
+
+
+</form>
+
+</body>
+</html>

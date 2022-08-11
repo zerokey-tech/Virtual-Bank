@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+            *{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    
+    background:linear-gradient(rgba(0,0,128,0.3),rgba(56,10,128,0.3));
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+ 
+      
+         button{
+         
+            font-size: 30px;
+            background: navy;
+            color:white;
+        }
+         p{
+            font-size: 40px;
+            color: DarkBlue;
+            }
+            input{
+           font-size: 25px;
+        }
+          .color1{
+            width:700px;
+            background: rgba(0,128,128,0.2);
+            opacity: 0.9;
+            text-align:center;
+            margin: 0px auto;
+            font-size: 25px;
+            height: 90vh;
+            position: center;
+            color:black;
+        }
+        .img{
+        width:500px;
+        height:500px;
+        top:50%;
+        left:50%;
+        text-align:center;
+        background: rgba(0,128,128,0.2);
+        opacity: 0.9;
+        font-size:25px;
+        position:absolute;
+        transform:translate(-50%,-50%);
+        box-sizing:border-box;        
+        }
+         .im{
+         border-radius:50%;
+    width: 100px;
+    position:absolute;
+    height: 100px;
+    top:-50px;
+    left:calc(50% - 50px);
+}  
+
+  </style>
+    </head>
+<body>
+<header>
+<form action="BalanceServlet">
+<div class="img">
+<img src="22579e0d8c9772d.jpg" class="im">
+
+<br><br>
+ <p>Balance Enquiry</p><br>
+Enter Account Number <input type="text" name="accountNo" required><br><br>
+
+<button type="submit" value="submit"> Submit</button><br><br>
+</div>
+
+</form>
+</header>
+
+
+</body>
+</html>
